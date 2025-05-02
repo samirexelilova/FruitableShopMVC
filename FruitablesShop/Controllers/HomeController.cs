@@ -17,7 +17,8 @@ namespace FruitablesShop.Controllers
 
             HomeVM homeVM = new HomeVM()
             {
-                Slides=_context.Slides.ToList()
+                Slides=_context.Slides.ToList(),
+                Products=_context.Products.Take(8).ToList()
             };
             return View(homeVM);
         }
