@@ -15,7 +15,13 @@ namespace FruitablesShop.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            DetailVM detailVM = new DetailVM()
+            {
+                Categories = _context.Categories.Include(c => c.Products).ToList(),
+                Products = _context.Products.ToList()
+            };
+      
+            return View(detailVM);
         }
 
         public IActionResult Detail(int? id)

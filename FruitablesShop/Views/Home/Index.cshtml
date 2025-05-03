@@ -213,7 +213,7 @@ aria-hidden="true">
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                                 <h4> <a asp-controller="shop" asp-action="detail" asp-route-id="@product.Id">@product.ProductName</a> </h4>
                                                 <p>
-                                                    @product.Description
+                                                    @product.Description.Substring(0,50)
                                                 </p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">

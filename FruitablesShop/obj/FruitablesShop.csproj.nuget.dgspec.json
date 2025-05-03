@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\novbe2\\source\\repos\\FruitablesShop\\FruitablesShop\\FruitablesShop.csproj": {}
+    "C:\\Users\\Rinat_PC\\Desktop\\FruitableShopMVC\\FruitablesShop\\FruitablesShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\novbe2\\source\\repos\\FruitablesShop\\FruitablesShop\\FruitablesShop.csproj": {
+    "C:\\Users\\Rinat_PC\\Desktop\\FruitableShopMVC\\FruitablesShop\\FruitablesShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\novbe2\\source\\repos\\FruitablesShop\\FruitablesShop\\FruitablesShop.csproj",
+        "projectUniqueName": "C:\\Users\\Rinat_PC\\Desktop\\FruitableShopMVC\\FruitablesShop\\FruitablesShop.csproj",
         "projectName": "FruitablesShop",
-        "projectPath": "C:\\Users\\novbe2\\source\\repos\\FruitablesShop\\FruitablesShop\\FruitablesShop.csproj",
-        "packagesPath": "C:\\Users\\novbe2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\novbe2\\source\\repos\\FruitablesShop\\FruitablesShop\\obj\\",
+        "projectPath": "C:\\Users\\Rinat_PC\\Desktop\\FruitableShopMVC\\FruitablesShop\\FruitablesShop.csproj",
+        "packagesPath": "C:\\Users\\Rinat_PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rinat_PC\\Desktop\\FruitableShopMVC\\FruitablesShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\novbe2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rinat_PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.200"
       },
@@ -63,10 +63,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.15, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -80,6 +76,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.200, 9.0.200]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -88,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

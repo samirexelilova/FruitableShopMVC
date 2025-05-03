@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
-    opt.UseSqlServer("server=EFLATUNQUBADOV;database=FruitableShopDb;trusted_connection=true;trustServerCertificate=True;");
+    opt.UseSqlServer("server=SAMIR\\SQLEXPRESS;database=FruitableShopDb;Trusted_Connection=True;trustServerCertificate=True;");
 });
 
 var app = builder.Build();
